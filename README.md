@@ -1,40 +1,57 @@
 # Hi there, I'm Igor Abade! 👋
 
-### 👨‍💻 Software Engineer & DevOps Enthusiast
-
-I'm a developer passionate about **automation, infrastructure, and Linux systems**. Currently, I'm focusing my journey on the **DevOps ecosystem**, building tools that bridge the gap between development and operations.
-
----
-
-### 🛠️ Tech Stack & Tools
-
-* **Operating Systems:** ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) (Mint / Ubuntu / Debian)
-* **DevOps & Infra:** ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-* **Automation:** ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-* **Version Control:** ![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+### 👨‍💻 DevOps & Infrastructure Engineer
+Como acadêmico de Engenharia de Software e profissional focado em cultura DevOps, dedico meu trabalho ao provisionamento de infraestrutura como código (IaC), automação de pipelines de entrega e orquestração de containers. Desenvolvo arquiteturas resilientes e monitoráveis, com foco em alta disponibilidade e eliminação de trabalho repetitivo (*toil*).
 
 ---
 
-### 🚀 Featured Projects
+### 🛠️ Tech Stack & Ecosystem
 
-* **[ShipReady](https://github.com/IgorAbade14/ShipReady)**: A high-performance automated deployment pipeline using Docker and Bash.
-* **[UpKeeper](https://github.com/IgorAbade14/UpKeeper-Version-1.0)**: Smart automation tool for Linux maintenance and scheduling.
-
----
-
-### 🧠 My Learning Path
-- 🐳 Advanced Docker & Container Orchestration.
-- 🐍 Bash and Python for DevOps & Automation.
-- ☁️ Cloud Infrastructure (Microsoft Azure/AWS).
-- 🔄 CI/CD Pipelines (GitHub Actions).
+| Categoria | Tecnologias e Ferramentas |
+| :--- | :--- |
+| **Cloud Computing** | AWS (EC2, VPC, S3, IAM, ALB, EKS) |
+| **Infraestrutura como Código** | Terraform (Modules, State Management, S3 Remote Backend) & HCL |
+| **Containers & Orquestração** | Docker, Docker Compose, Kubernetes (K8s) & Minikube |
+| **CI/CD & Automação** | GitHub Actions, Bash Scripting & Python |
+| **Sistemas & Servidores** | Linux (Debian, Ubuntu, Mint), NGINX & Apache |
+| **Observabilidade & Redes** | Prometheus, Grafana, Protocolos TCP/IP, DNS & SSH |
 
 ---
 
-### 📫 Connect with me:
+### 🚀 Projetos Técnicos em Destaque
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/igorabade14/)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgorAbade14)
+#### 🌐 [Mint-Orchestrator](https://github.com/IgorAbade14/Mint-Orchestrator)
+> **Status do Projeto:** ![CI/CD Status](https://github.com/IgorAbade14/Mint-Orchestrator/actions/workflows/main.yml/badge.svg)
+
+Aplicação Python/Flask orquestrada em ambiente Kubernetes (Minikube). Conta com um pipeline de CI/CD automatizado via GitHub Actions que realiza validação sintática e testes de integridade estrutural offline dos manifestos de `Deployment` e `Service` antes do build da imagem Docker.
+
+#### 📡 [Status-Pulse](https://github.com/IgorAbade14/Status-Pulse)
+Arquitetura de Nuvem 100% gerenciada via **Terraform**, utilizando módulos reutilizáveis para segregação de camadas de rede, segurança e aplicação na **AWS**. Conta com persistência de estado (`tfstate`) via S3 Remote Backend e automação de deploys com GitHub Actions.
+
+#### ⚖️ [Load Balanced Web Stack](https://github.com/IgorAbade14/load-balanced-web-stack)
+Provisionamento de uma infraestrutura resiliente e tolerante a falhas distribuída em múltiplas Zonas de Disponibilidade (**Multi-AZ**) na AWS via Terraform. Implementação de **Application Load Balancer (ALB)** para distribuição inteligente de tráfego e regras de firewall em cascata via Security Groups.
+
+#### 📦 [SerraStack v2.0](https://github.com/IgorAbade14/SerraStack)
+Provisionamento automatizado de uma stack LEMP completa utilizando **Docker Compose** para isolamento de serviços. Implementação de scripts em Bash para *Auto-Healing* (limpeza de recursos órfãos, reconstrução de ambiente e validação de `Healthchecks`).
+
+#### ⚙️ [UpKeeper v1.0](https://github.com/IgorAbade14/UpKeeper-Version-1.0)
+Desenvolvimento de scripts robustos em **Bash** para gerenciamento de manutenção preventiva em sistemas baseados em Debian/Ubuntu. Implementação de conceitos de idempotência e gestão de janelas de manutenção crítica baseada em lógica condicional.
 
 ---
 
-*"Automating the boring stuff to build the future."*
+### 🧠 Core Competencies & Roadmap 2026
+
+* **Infraestrutura Ágil:** Expansão de arquiteturas de microsserviços complexas utilizando Kubernetes nativo e gerenciado (AWS EKS).
+* **Observabilidade Avançada:** Engenharia de monitoramento aprofundada coletando métricas de infraestrutura com **Prometheus** e criando dashboards analíticos no **Grafana**.
+* **Segurança e Conformidade:** Integração de esteiras de segurança (DevSecOps) com análise estática de vulnerabilidades em imagens de container.
+
+---
+
+### 📫 Conecte-se comigo:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/igorabade14)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgorAbade14)
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abadeti123@gmail.com)
+
+---
+*"Automating the boring stuff to build resilient and scalable futures."*
