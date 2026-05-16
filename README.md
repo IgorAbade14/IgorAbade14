@@ -27,6 +27,7 @@ Aplicação Python/Flask orquestrada em ambiente Kubernetes (Minikube). Conta co
 
 #### 📡 [Status-Pulse](https://github.com/IgorAbade14/Status-Pulse)
 Arquitetura de Nuvem 100% gerenciada via **Terraform**, utilizando módulos reutilizáveis para segregação de camadas de rede, segurança e aplicação na **AWS**. Conta com persistência de estado (`tfstate`) via S3 Remote Backend e automação de deploys com GitHub Actions.
+> **Status do Projeto:** (https://github.com/IgorAbade14/Status-Pulse/actions/workflows/terraform.yaml)
 
 #### ⚖️ [Load Balanced Web Stack](https://github.com/IgorAbade14/load-balanced-web-stack)
 Provisionamento de uma infraestrutura resiliente e tolerante a falhas distribuída em múltiplas Zonas de Disponibilidade (**Multi-AZ**) na AWS via Terraform. Implementação de **Application Load Balancer (ALB)** para distribuição inteligente de tráfego e regras de firewall em cascata via Security Groups.
@@ -36,14 +37,6 @@ Provisionamento automatizado de uma stack LEMP completa utilizando **Docker Comp
 
 #### ⚙️ [UpKeeper v1.0](https://github.com/IgorAbade14/UpKeeper-Version-1.0)
 Desenvolvimento de scripts robustos em **Bash** para gerenciamento de manutenção preventiva em sistemas baseados em Debian/Ubuntu. Implementação de conceitos de idempotência e gestão de janelas de manutenção crítica baseada em lógica condicional.
-
----
-
-### 🧠 Core Competencies & Roadmap 2026
-
-* **Infraestrutura Ágil:** Expansão de arquiteturas de microsserviços complexas utilizando Kubernetes nativo e gerenciado (AWS EKS).
-* **Observabilidade Avançada:** Engenharia de monitoramento aprofundada coletando métricas de infraestrutura com **Prometheus** e criando dashboards analíticos no **Grafana**.
-* **Segurança e Conformidade:** Integração de esteiras de segurança (DevSecOps) com análise estática de vulnerabilidades em imagens de container.
 
 ---
 
