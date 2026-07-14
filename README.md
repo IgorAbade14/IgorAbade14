@@ -41,7 +41,7 @@ Como acadêmico de Engenharia de Software e profissional focado em cultura DevOp
 
 ## 📫 Conecte-se comigo:
 
-🤝 [LinkedIn](https://linkedin.com/in/igorabade14) | ✉️ [E-mail](mailto:abadeti123@gmail.com)[cite: 1]
+🤝 [LinkedIn](https://linkedin.com/in/igorabade14) | ✉️ [E-mail](mailto:abadeti123@gmail.com)
 
 ---
 
